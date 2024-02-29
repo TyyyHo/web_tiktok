@@ -6,8 +6,12 @@ import ControlItem from "./controlItem";
 export default function Control(): ReactNode {
   return (
     <section className="absolute top-[3dvw] right-[3dvw]">
-      <ControlItem children={<Flip />} />
-      <ControlItem children={<Volume />} />
+      <ControlItem>
+        <Flip />
+      </ControlItem>
+      <ControlItem>
+        <Volume />
+      </ControlItem>
     </section>
   );
 }
