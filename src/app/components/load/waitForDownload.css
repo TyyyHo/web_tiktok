@@ -1,0 +1,74 @@
+.text {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.text::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: currentColor;
+  position: absolute;
+  bottom: 10px;
+  right: -5px;
+  box-sizing: border-box;
+  animation: animtext 1s linear infinite;
+}
+
+@keyframes animtext {
+  0% {
+    box-shadow: 10px 0 rgba(255, 255, 255, 0), 20px 0 rgba(255, 255, 255, 0);
+  }
+  50% {
+    box-shadow: 10px 0 white, 20px 0 rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 10px 0 white, 20px 0 white;
+  }
+}
+
+.tape {
+  margin: auto;
+  width: 100px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 0px 35px 0 -5px #dfdfdf, 0 -5px 0 0px #e481a2, -25px -30px 0 0px #e481a2, -25px 30px 0 0px #e481a2, 25px -30px 0 0px #e481a2,
+    25px 30px 0 0px #e481a2, 20px 10px 0 5px #e481a2, 20px -10px 0 5px #e481a2, -20px -10px 0 5px #e481a2, -20px 10px 0 5px #e481a2;
+}
+.tape:after,
+.tape:before {
+  content: "";
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: block;
+  position: absolute;
+  border: 4px dashed #fff;
+  bottom: -4px;
+  transform: rotate(0deg);
+  box-sizing: border-box;
+  animation: tape 4s linear infinite;
+}
+.tape:before {
+  right: 0;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 34px #000;
+}
+.tape:after {
+  left: 0;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 40px #000;
+}
+
+@keyframes tape {
+  0% {
+    transform: rotate(0deg) scale(0.3);
+  }
+  100% {
+    transform: rotate(-360deg) scale(0.3);
+  }
+}
