@@ -17,8 +17,8 @@ export default function Canvas(): ReactNode {
     let id: number;
     const basicElement = createBasis();
     setThreeELement(basicElement);
-    const background = createBackground(basicElement.scene, cameraType);
     createVideoTexture(basicElement.scene);
+    const background = createBackground(basicElement.scene, cameraType);
     basicElement!.scene.background = background;
 
     document.getElementById("canvasContainer")!.appendChild(basicElement.renderer.domElement);

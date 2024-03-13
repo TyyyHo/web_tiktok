@@ -17,7 +17,9 @@ export function createBackground(scene: THREE.Scene, cameraType: "user" | "envir
         video.srcObject = stream;
         video.playsInline = true;
         video.muted = true;
-        video.addEventListener("canplay", () => video.play());
+        video.addEventListener("canplay", () => {
+          video.play();
+        });
         video.remove();
       })
       .catch((error) => {
