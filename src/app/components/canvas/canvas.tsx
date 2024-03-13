@@ -19,7 +19,7 @@ export default function Canvas(): ReactNode {
     setThreeELement(basicElement);
     createVideoTexture(basicElement.scene);
     const background = createBackground(basicElement.scene, cameraType);
-    basicElement!.scene.background = background;
+    basicElement.scene.background = background;
 
     document.getElementById("canvasContainer")!.appendChild(basicElement.renderer.domElement);
     function animate() {
@@ -36,8 +36,8 @@ export default function Canvas(): ReactNode {
 
   useEffect(() => {
     if (!threeELement) return;
-    const texture = createBackground(threeELement!.scene, cameraType);
-    threeELement!.scene.background = texture;
+    const texture = createBackground(threeELement.scene, cameraType);
+    threeELement.scene.background = texture;
   }, [cameraType]);
 
   return <div id="canvasContainer" onContextMenu={(e) => e.preventDefault()}></div>;

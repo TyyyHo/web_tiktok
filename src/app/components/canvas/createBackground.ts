@@ -5,7 +5,7 @@ export function createBackground(scene: THREE.Scene, cameraType: "user" | "envir
   const texture = new THREE.VideoTexture(video);
   texture.colorSpace = THREE.SRGBColorSpace;
 
-  if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  if (navigator.mediaDevices?.getUserMedia) {
     const constraints = {
       video: { facingMode: cameraType },
       audio: true,
