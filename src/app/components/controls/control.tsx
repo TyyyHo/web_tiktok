@@ -5,12 +5,12 @@ import ControlItem from "./controlItem";
 
 export default function Control(): ReactNode {
   return (
-    <section className="absolute top-[3dvw] right-[3dvw]">
-      <ControlItem>
-        <Flip />
-      </ControlItem>
+    <section className="absolute bottom-[22dvh] right-[3dvw]">
       <ControlItem>
         <Volume />
+      </ControlItem>
+      <ControlItem>
+        <Flip />
       </ControlItem>
     </section>
   );
