@@ -5,7 +5,7 @@ const keyColor = new THREE.Color(0x00cf04);
 
 export function createVideoTexture(scene: THREE.Scene) {
   const video = document.createElement("video");
-  video.src = "/toothless.mp4";
+  video.src = "/media/toothless.mp4";
   video.playsInline = true;
   video.muted = true;
   video.loop = true;

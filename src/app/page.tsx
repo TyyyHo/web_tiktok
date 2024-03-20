@@ -15,7 +15,7 @@ export default function Home() {
       <Control />
       <Record />
       <WaitForDownload />
-      <audio src="/music/bgm.mp3" loop></audio>
+      <audio src="/media/bgm.mp3" loop></audio>
     </main>
   );
 }
