@@ -26,7 +26,7 @@ export const useLoadingStore = create<iLoadingStore>((set) => ({
       wasmURL: response.wasmUrl,
     });
 
-    const bgm = await fetch("/music/bgm.mp3");
+    const bgm = await fetch("/media/bgm.mp3");
     const bgmBlob = await bgm.blob();
     set({ loading: false, ffmpeg: ffmpeg, bgmBlob: bgmBlob });
   },
