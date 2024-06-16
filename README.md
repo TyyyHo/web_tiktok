@@ -1,6 +1,6 @@
 # Web TikTok
 
-A TikTok-like web application that allows users to create reels or take shots. This project leverages `ffmpeg-wasm` for video processing and `three.js` for video integration.
+A TikTok-like web application that allows users to create reels or take shots. This project leverages `ffmpeg-wasm` for video processing and `three.js` for video and green screen removing.
 
 ## Table of Contents
 
@@ -12,8 +12,6 @@ A TikTok-like web application that allows users to create reels or take shots. T
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
-
-Follow these steps to set up and run the project locally.
 
 Clone the repository:
     ```bash
@@ -41,7 +39,7 @@ Here are the instructions to use the application:
 ## Features
 
 - Record video or take snapshots using the camera.
-- Add background music (BGM) to your video.
+- Add background music to your video.
 - Mix and process the final video using ffmpeg-wasm.
 - Download the created reels.
 
