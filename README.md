@@ -62,7 +62,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 ## Acknowledgments
 
 - Thanks to the developers of ffmpeg-wasm for providing a powerful tool for video processing.
-- Green screen removing is inspire by <a href="https://github.com/drinkspiller/threejs_chromakey_video_material" target="_blank">drinkspiller</a>.
+- Green screen removing is inspire by <a href="https://github.com/drinkspiller/threejs_chromakey_video_material">drinkspiller</a>.
 
 
 
