@@ -39,8 +39,7 @@ Here are the instructions to use the application:
    
 4. Follow the on-screen instructions to take a shot or create a reel.
 
-
-
+<br/>
 ## Features
 
 - Record video or take snapshots using the camera.
@@ -48,14 +47,12 @@ Here are the instructions to use the application:
 - Mix and process the final video using ffmpeg-wasm.
 - Download the created reels.
 
-
-
+<br/>
 ## Licenese
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-
-
+<br/>
 ## Acknowledgments
 
 - Thanks to the developers of ffmpeg-wasm for providing a powerful tool for video processing.
