@@ -17,9 +17,13 @@ A TikTok-like web application that allows users to create reels or take shots. T
 
 ## Installation
 
-- Clone the repository:
+1. Clone the repository:
     ```bash
     git clone https://github.com/TyyyHo/web_tiktok.git
+    ```
+2. Install NPM packages
+   ```bash
+    npm install
     ```
 
 <br/>
