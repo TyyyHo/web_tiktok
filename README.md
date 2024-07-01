@@ -39,11 +39,12 @@ Here are the instructions to use the application:
    ```
 
 2. Open your browser and navigate to:
-   Making sure open the website in https, otherwise the permission of camera may not be denied.
 
    ```
    https://localhost:3000
    ```
+
+   Making sure open the website in https, otherwise the permission of camera may not be denied.
 
 3. Allow camera access when prompted.
 4. Follow the on-screen instructions to take a shot or create a reel.
