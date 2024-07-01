@@ -1,6 +1,6 @@
 # Web TikTok
 
-A TikTok-like web application that allows users to create reels or take shots. This project leverages `ffmpeg-wasm` for video processing and `three.js` for video and green screen removing.
+A TikTok-like web application that allows users to create reels or take shots, utilizing ffmpeg-wasm for video processing and WebGL for green screen removal.
 
 <br/>
 
