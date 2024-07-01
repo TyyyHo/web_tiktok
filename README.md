@@ -18,13 +18,13 @@ A TikTok-like web application that allows users to create reels or take shots. T
 ## Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/TyyyHo/web_tiktok.git
-    ```
+   ```bash
+   git clone https://github.com/TyyyHo/web_tiktok.git
+   ```
 2. Install NPM packages
    ```bash
     npm install
-    ```
+   ```
 
 <br/>
 
@@ -33,17 +33,19 @@ A TikTok-like web application that allows users to create reels or take shots. T
 Here are the instructions to use the application:
 
 1. Start the development server:
-    ```bash
-    npm start
-    ```
+
+   ```bash
+   npm dev
+   ```
 
 2. Open your browser and navigate to:
-    ```
-    http://localhost:3000
-    ```
+   Making sure open the website in https, otherwise the permission of camera may not be denied.
+
+   ```
+   https://localhost:3000
+   ```
 
 3. Allow camera access when prompted.
-   
 4. Follow the on-screen instructions to take a shot or create a reel.
 
 <br/>
@@ -67,6 +69,3 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 - Thanks to the developers of ffmpeg-wasm for providing a powerful tool for video processing.
 - Green screen removing is inspire by <a href="https://github.com/drinkspiller/threejs_chromakey_video_material">drinkspiller</a>.
-
-
-
